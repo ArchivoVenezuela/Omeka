@@ -4,9 +4,9 @@ import csv
 import json
 
 # 🔹 CONFIGURATION: Set your API keys and endpoints
-WS_KEY = "1BdwlXyyHwmFWtdrAUG4IqQNJsl1r5aFQIOj1DlP6nqLzqK6OXxDbwqoAiOD7swaCMrJMTbwKdM81cO4"
-WS_SECRET = "xFPiujVh+HLNGiCAymAkk00SFHh5/gfq"
-OMEKA_API_KEY = "5988565c1c5bb494fa94153c3b4b3874b82e49fb"
+WS_KEY = "xxx"
+WS_SECRET = "xxxx"
+OMEKA_API_KEY = "xxxxx"
 OMEKA_URL = "https://archivovenezuela.com/test/api/items"
 
 # Set the path to the Downloads folder explicitly
