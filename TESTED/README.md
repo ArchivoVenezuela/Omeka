@@ -1,32 +1,25 @@
-# 📘 WorldCat Basic Metadata Fetcher
+# 📚 ISBN/ISSN Fallback Extractor
 
-This Python script fetches **basic bibliographic metadata** from the WorldCat Discovery API using a list of hardcoded OCLC numbers. It's ideal for librarians, researchers, and digital humanities scholars needing quick access to clean, structured data.
+This Python script extracts **ISBN** and **ISSN** identifiers from WorldCat using the Discovery API. It's designed for batch processing of OCLC numbers and outputs a clean CSV file with the results.
 
 ---
 
 ## ✅ Features
 
-- Uses the **WorldCat Discovery API** (JSON)
-- Extracts:
-  - `OCLC`
-  - `Title`
-  - `Creator`
-  - `Contributor`
-  - `Publisher`
-  - `Date`
-  - `WorldCat URL`
-- Outputs a well-encoded `CSV` with Unicode support
-- Handles accented characters and mojibake with a robust fixer
+- Fetches **ISBN** and **ISSN** (if available) via the WorldCat Discovery API.
+- Uses hardcoded OCLC numbers — great for quick runs or integration into pipelines.
+- Prints titles in the output to help match records with other datasets.
+- Outputs clean, UTF-8 encoded CSV to your **Downloads** folder.
 
 ---
 
-## 🛠 Requirements
+## 🔧 Requirements
 
 - Python 3.7+
-- `requests`
-- `tqdm`
+- External libraries:
+  - `requests`
+  - `tqdm`
 
-You can install dependencies with:
-
+Install dependencies (if needed):
 ```bash
 pip install requests tqdm
