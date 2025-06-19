@@ -38,7 +38,7 @@ if st.button("🔍 Start Scraping"):
         if platform == "Goodreads":
             results = scrape_goodreads(query)
         elif platform == "YouTube":
-            YOUTUBE_API_KEY = "AIzaSyAalRfVNk-YQljZpedIlsDh7KO4fmqf2YY"  # TEMPORARY: later use env
+            YOUTUBE_API_KEY = "your_youtube_api_key"  # TEMPORARY: later use env
             results = scrape_youtube_api(query, YOUTUBE_API_KEY)
         elif platform == "Google Books":
             results = scrape_google_books(query)
