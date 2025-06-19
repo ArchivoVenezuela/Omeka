@@ -1,0 +1,13 @@
+streamlit
+pandas
+requests
+python-dotenv
+googletrans==4.0.0rc1
+beautifulsoup4
+spotipy
+deepl
+tqdm
+lxml
+pytest
+flake8
+black
