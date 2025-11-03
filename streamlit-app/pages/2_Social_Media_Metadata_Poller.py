@@ -76,4 +76,4 @@ if st.button("📥 Fetch Metadata from Omeka"):
         )
 
 st.divider()
-st.caption("Developed by Raagya Gehlot • Archivo Venezuela • 2025 Edition")
+st.caption("Archivo Venezuela • 2025 Edition")
