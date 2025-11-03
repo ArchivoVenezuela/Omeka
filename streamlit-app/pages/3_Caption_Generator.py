@@ -121,4 +121,4 @@ if "sheet_url" in st.session_state:
             st.error(f"❌ Failed to share: {e}")
 
 st.divider()
-st.caption("Developed by Raagya Gehlot • Archivo Venezuela • 2025 Edition")
+st.caption("Archivo Venezuela • 2025 Edition")
