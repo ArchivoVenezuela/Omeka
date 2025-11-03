@@ -162,6 +162,8 @@ if result_df is not None and not result_df.empty:
 else:
     st.info("⚠️ No metadata found. Please complete Step 1 first.")
 
+st.divider()
+st.caption("Archivo Venezuela • 2025 Edition")
 
 
 
