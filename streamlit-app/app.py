@@ -165,6 +165,4 @@ else:
 
 
 
-st.divider()
-st.caption("Developed by Raagya Gehlot • Archivo Venezuela • 2025 Edition")
 
